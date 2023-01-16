@@ -11,7 +11,7 @@ const boxTitle = document.querySelector("h2");
 const box = document.querySelector("div")
 titleHover.onmouseenter = () => {
     box.classList.add("box");
-    boxTitle.innerText = "Ваш компьютер заблокирован, переведите нам 1000 биткоинов и мы его разблокируем.";
+    boxTitle.innerText = "Ваш компьютер заблокирован, переведите нам 1000 биткоинов и мы его разблокируем!!!";
 }
 
 titleHover.onmouseleave = () => {
