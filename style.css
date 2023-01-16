@@ -33,7 +33,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 80vw;
-    height: 50vh;
+    min-height: 50vh;
     /* position: absolute;
     left: 50px;
     right: 50px;
@@ -44,8 +44,8 @@ body {
 }
 
 .box-title {
-    padding: 50px;
-    color: green;
+    padding: 30px;
+    color: red;
     font-size: 120px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ body {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
 }
+
 .item {
     border: 2px solid black;
 }
-
